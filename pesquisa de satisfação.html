@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <form action="/enviar_pesquisa" method="post">
+
+        <section>
+            <h2>Dados Pessoais</h2>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </p>
+        </section>
+        
+        <section>
+            <h2>Pesquisa</h2>
+            <p>
+                <label>1. Você está satisfeito com nossos serviços?</label><br>
+                <input type="radio" id="satisfeito_sim" name="satisfeito" value="sim" required>
+                <label for="satisfeito_sim">Sim</label><br>
+                <input type="radio" id="satisfeito_nao" name="satisfeito" value="nao" required>
+                <label for="satisfeito_nao">Não</label>
+            </p>
+            <p>
+                <label>2. Qual a probabilidade de você recomendar nossos serviços a um amigo ou colega?</label><br>
+                <input type="radio" id="recomendacao_alta" name="recomendacao" value="alta" required>
+                <label for="recomendacao_alta">Alta</label><br>
+                <input type="radio" id="recomendacao_media" name="recomendacao" value="media" required>
+                <label for="recomendacao_media">Média</label><br>
+                <input type="radio" id="recomendacao_baixa" name="recomendacao" value="baixa" required>
+                <label for="recomendacao_baixa">Baixa</label>
+            </p>
+            <p>
+                <label for="frequencia">3. Com que frequência você utiliza nossos serviços?</label><br>
+                <select id="frequencia" name="frequencia" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="diariamente">Diariamente</option>
+                    <option value="semanalmente">Semanalmente</option>
+                    <option value="mensalmente">Mensalmente</option>
+                    <option value="raramente">Raramente</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="compartilhar" name="compartilhar">
+                <label for="compartilhar">Autorizo compartilhar minha resposta com terceiros</label>
+            </p>
+        </section>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>
