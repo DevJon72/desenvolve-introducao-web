@@ -1,0 +1,14 @@
+/* Color Theme Swatches in Hex */
+
+/*.Principal { color: #4091a0; }
+.Background { color: #59d3ee; }
+.Gina-Kiel-x-Juan-Bullion-3-hex { color: #05DBF2; }
+.Gina-Kiel-x-Juan-Bullion-4-hex { color: #F23005; }
+.Destaque { color: #0D0D0D; }
+*/
+
+
+html {
+    background: #59d3ee;
+    color: #0D0D0D;
+}
