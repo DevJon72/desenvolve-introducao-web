@@ -1,0 +1,32 @@
+a {
+    color: red; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: lemonchiffon;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+
+.destaque {
+    font-family: Arial, sans-serif;
+
+}
+
+.destaque p {
+    font-weight: bold; 
+}
+
+.destaque strong {
+    color: red;
+}
