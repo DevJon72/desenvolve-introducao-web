@@ -1,34 +1,32 @@
-/* Altera as cores dos links */
 a {
-    color: red; /* Cor padrão do link */
-    text-decoration: none; /* Remove sublinhado padrão */
-    transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+    color: red; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: lemonchiffon; /* Cor do link ao passar o mouse */
+    color: lemonchiffon;
 }
 
-/* Customiza os parágrafos */
 body {
-    font-family: Arial, sans-serif; /* Fonte Arial para todo o corpo */
-    line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
 }
 
 h1 + p {
-    font-weight: bold; /* Parágrafos logo após h1 em negrito */
+    font-weight: bold;
 }
 
-/* Estiliza a classe .destaque */
+
 .destaque {
-    font-family: Arial, sans-serif; /* Fonte Arial por padrão */
+    font-family: Arial, sans-serif;
 
 }
 
 .destaque p {
-    font-weight: bold; /* Parágrafos com classe .destaque em negrito */
+    font-weight: bold; 
 }
 
 .destaque strong {
-    color: red; /* <strong> com classe .destaque em vermelho */
+    color: red;
 }
